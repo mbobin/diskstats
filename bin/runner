@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require_relative "../environment"
+
+loop do
+  ContainerObject.resolve(:import)
+  sleep(1)
+end

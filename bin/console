@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative "../environment"
+
+# inspector = ->(record) { puts record.to_h }
+# ContainerObject.resolve(:each_record).call(inspector)
+
+binding.pry
+
+puts ""
